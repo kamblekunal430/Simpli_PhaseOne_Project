@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: "poppins", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: #fff;
+    z-index: 5;
+}
+
+.links-container {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+
+.link {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.logo {
+    height: 50px;
+    padding: 5px;
+}
+
+.link-item {
+    margin: 0 auto;
+}
+
+.link-item:hover {
+    border: orange solid 1px;
+    border-radius: 5px;
+}
+
+.header {
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../img/header.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading {
+    color: #fff;
+
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+
+.simpli {
+    color: orange;
+    margin-right: 0;
+    padding-right: 0;
+    letter-spacing: 3px;
+}
+.learn {
+    color: deepskyblue;
+    margin-left: 0;
+    padding-left: 0;
+    letter-spacing: 3px;
+}
+
+.heading .small {
+    display: block;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: lightskyblue;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.blog-section {
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.btn-rdmr {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: lightskyblue;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.blog-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
