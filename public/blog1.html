@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/blog.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <img src="img/logo.jpg" alt="simplilearn logo" class="logo" />
+            <ul class="links-container">
+                <li class="link-item">
+                    <a href="home.html" class="link">Home</a>
+                </li>
+                <li class="link-item">
+                    <a href="about.html" class="link">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="banner"></div>
+        <div class="blog">
+            <h1 class="title">Welcome to simplilearn</h1>
+            <div class="published">
+                <span
+                    ><b style="font-size: 20px"
+                        >Author - Aakanksha Khawase</b
+                    ></span
+                ><br />
+                <span><i>17 Aug 2021</i></span>
+            </div>
+            <div class="article">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur consequatur ad aut neque voluptatem ducimus
+                corporis iure iusto reiciendis modi rem doloribus odio quos, a
+                sed esse nam accusantium expedita. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Doloremque, perspiciatis natus
+                beatae eos aspernatur quaerat deserunt earum harum laboriosam ut
+                ipsum debitis aut nesciunt inventore nulla aliquid quidem,
+                laudantium ipsa? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Sed, possimus quibusdam in quo explicabo
+                asperiores quod nostrum ut nihil tenetur nobis quia voluptates
+                nam placeat sunt nulla at, vero voluptatibus!
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="comment-section" id="comment">
+            <h2>Comments</h2>
+            <br />
+
+            <div>
+                <b>Kunal Kamble</b>
+                <i>17/8/2021 @ 15:53</i>
+                <p>&emsp; Great Exlanation</p>
+            </div>
+            <div>
+                <b>Sakshi Kapoor</b>
+                <i>17/8/2021 @ 17:53</i>
+                <p>&emsp; Lets connect</p>
+            </div>
+            <div>
+                <b>Anshul Maske</b>
+                <i>18/8/2021 @ 15:53</i>
+                <p>&emsp; Great Exlanation with exmples</p>
+            </div>
+        </div>
+
+        <div class="comment-section">
+            <h3>Write Comment..</h3>
+            Name:<input
+                class="form-control"
+                type="text"
+                id="name"
+                placeholder="Name"
+                style="width: 50%"
+            />
+            <br />
+            Comment:<textarea
+                type="text"
+                class="form-control"
+                cols="20"
+                rows="3"
+                id="inpcmnt"
+                placeholder="Your Comment"
+                style="margin-top: 5px; margin-left: 5px"
+            ></textarea>
+
+            <br />
+            <input
+                type="button"
+                class="btn"
+                value="Comment"
+                onclick="addComment();"
+            />
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
