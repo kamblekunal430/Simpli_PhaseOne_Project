@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/blog.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <img src="img/logo.jpg" alt="simplilearn logo" class="logo" />
+            <ul class="links-container">
+                <li class="link-item">
+                    <a href="home.html" class="link">Home</a>
+                </li>
+                <li class="link-item">
+                    <a href="about.html" class="link">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <img src="img/bl4.jpg" class="blog-img" alt="" srcset="" />
+        </div>
+        <div class="blog">
+            <h1 class="title">
+                Most professionals see learning as key to get better job
+                opportunities: Survey
+            </h1>
+            <div class="published">
+                <span><b style="font-size: 20px">Author - Kunal Kamble</b></span
+                ><br />
+                <span><i>17 Aug 2021</i></span>
+            </div>
+            <div class="article">
+                Mumbai, Jan 20 (PTI) Even as the evolution of the business
+                landscape in 2020 led to changes in job requirements, a survey
+                has showed that a majority of professionals (67.5 per cent) see
+                learning as the key to get better opportunities, and also plan
+                to start learning programmes this year. Last year saw the
+                evolution of a changing business landscape, which in turn
+                resulted in changes to job requirements prompting both working
+                professionals and job seekers to invest in new skills, according
+                to ed-tech firm Simplilearn''s annual report. The report, based
+                on the survey, showed that professionals are taking a proactive
+                approach to career success in 2021, and 67.5 per cent of those
+                interviewed see learning as the key to landing better
+                opportunities, and plan to start learning programmes this year.
+                The survey interviewed over 5,000 Simplilearn learners,
+                comprising both individual and corporate learners, of which 19.4
+                per cent respondents were freshers, 51.3 per cent mid-level and
+                29.2 per cent senior-level professionals. A majority of the
+                respondents were from the information technology sector,
+                followed by manufacturing, consulting and finance. Further, the
+                survey showed that in 2020, 14 per cent of the respondents lost
+                their jobs, 41 per cent of mid-career professionals felt
+                stagnant in their careers and in large organisations, 25 per
+                cent of professionals felt stuck. However, professionals are
+                taking a proactive approach to career success in 2021, with 35
+                per cent of respondents seeing the pandemic as an opportunity to
+                learn new skills, it said. This number rose to 49.5 per cent of
+                employees in small and medium enterprises, it added. About 4 per
+                cent of respondents feel keeping their jobs depends on learning
+                new skills, while 66 per cent of professionals are either
+                enrolled in training programmes or plan to start this year, it
+                stated. Simplilearn founder and CEO Krishna Kumar said, "The
+                work-from-home scenario, which is a by-product of the effects of
+                the pandemic and the new normal, has driven a clear trend to
+                online learning. With individuals getting a little extra time
+                for self-development, we saw a 60 per cent jump in enrolments in
+                the early days of lockdown itself." He said the usage on the
+                platform has doubled compared to pre-pandemic times. Another
+                factor that contributed to this was career uncertainty and job
+                losses which made it clear to many professionals that digital
+                skills is key to career stability and growth, he said. PTI SM
+                HRS hrs
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="comment-section" id="comment">
+            <h2>Comments</h2>
+            <br />
+
+            <div>
+                <b>Kunal Kamble</b>
+                <i>17/8/2021 @ 15:53</i>
+                <p>&emsp; Great Exlanation</p>
+            </div>
+            <div>
+                <b>Sakshi Kapoor</b>
+                <i>17/8/2021 @ 17:53</i>
+                <p>&emsp; Lets connect</p>
+            </div>
+            <div>
+                <b>Anshul Maske</b>
+                <i>18/8/2021 @ 15:53</i>
+                <p>&emsp; Great Exlanation with exmples</p>
+            </div>
+        </div>
+
+        <div class="comment-section">
+            <h3>Write Comment..</h3>
+            Name:<input
+                class="form-control"
+                type="text"
+                id="name"
+                placeholder="Name"
+                style="width: 50%"
+            />
+            <br />
+            Comment:<textarea
+                type="text"
+                class="form-control"
+                cols="20"
+                rows="3"
+                id="inpcmnt"
+                placeholder="Your Comment"
+                style="margin-top: 5px; margin-left: 5px"
+            ></textarea>
+
+            <br />
+            <input
+                type="button"
+                class="btn"
+                value="Comment"
+                onclick="addComment();"
+            />
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
