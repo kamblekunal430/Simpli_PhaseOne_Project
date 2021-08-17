@@ -1,0 +1,125 @@
+body {
+    font-family: "Merriweather", serif;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    color: #005082;
+    font-size: 420%;
+    padding-top: 70px;
+    font-family: "Sacramento", cursive;
+    margin: 0 auto 0 auto;
+}
+h2 {
+    color: #005082;
+    font-size: 250%;
+    font-family: "Montserrat", sans-serif;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #007892;
+    font-size: 170%;
+}
+p {
+    color: #5f6769;
+    font-size: 120%;
+    font-family: "Montserrat", sans-serif;
+}
+.top-container {
+    background-color: #e1f4f3;
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+.middle-container {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.bottom-container {
+    text-align: center;
+    background-color: #def4f0;
+    padding: 30px 0 10px;
+}
+a {
+    color: #005082;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+hr {
+    border: dotted #a4a4a6 6px;
+    border-bottom: none;
+    width: 2%;
+}
+
+.tag {
+    color: #005082;
+    font-size: 150%;
+    font-family: "Montserrat", sans-serif;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-1 {
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+.skill-2 {
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+.img1 {
+    margin-top: 90px;
+    width: 15%;
+}
+.coder {
+    width: 35%;
+}
+.cloud {
+    width: 10%;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+}
+.cloud1 {
+    width: 10%;
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+}
+.contact-me {
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+}
+.btn {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, #005082 5%, #408c99 100%);
+    background-color: #005082;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.btn:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+}
