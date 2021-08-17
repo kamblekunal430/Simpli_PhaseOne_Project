@@ -56,7 +56,7 @@ body {
     margin-top: 60px;
     width: 100%;
     height: calc(100vh - 60px);
-    background: url(../img/header.jpeg);
+    background: url(../img/header.jpg);
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -125,7 +125,7 @@ body {
     font-weight: bold;
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: red;
 }
 
 .blog-img {
